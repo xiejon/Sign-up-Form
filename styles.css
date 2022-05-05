@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    background-color: rgb(29,0,0);
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    min-width: 70vw;
+    min-height: 100vh;
+
+}
+
+.image {
+    min-height: 100vh;
+
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    padding: 30px;
+    min-height: 35%;
+    
+    background-color: rgb(29, 0, 0);
+    font-family: Helvetica, Arial, sans-serif;
+    color: white;
+}
+
+.header > p {
+    padding: 10px;
+}
+p {
+    max-width: 65ch;
+}
+
+.form {
+    padding: 30px;
+    min-height: 30%;
+
+    background-color:rgb(89, 17, 17);
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 10px;;
+    color: white;
+}
+
+.footer {
+    padding: 30px;
+    background-color: rgb(29, 0, 0);
+    min-height: 35%;
+
+    color: white;
+}
+
+.sign-up-form {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-right: 40px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+
+    padding: 10px;
+}
