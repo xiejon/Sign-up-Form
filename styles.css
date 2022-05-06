@@ -6,19 +6,20 @@
 
 body {
     display: flex;
-    background-color: rgb(29,0,0);
+    background-color: rgb(245, 245, 245);
 }
 
 .main {
     display: flex;
     flex-direction: column;
-    min-width: 70vw;
+    min-width: 60vw;
     min-height: 100vh;
 
 }
 
 .image {
     min-height: 100vh;
+    min-width: 50vh;
 
 }
 
@@ -32,45 +33,45 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-
-    padding: 30px;
-    min-height: 35%;
-    
-    background-color: rgb(29, 0, 0);
+    padding: 50px;
+    min-height: 30vh;
+    background-color:rgb(245, 245, 245);
     font-family: Helvetica, Arial, sans-serif;
-    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(74, 74, 74);
 }
 
 .header > p {
-    padding: 10px;
+    padding-top: 20px;
 }
 p {
     max-width: 65ch;
 }
 
 .form {
-    padding: 30px;
-    min-height: 30%;
-
-    background-color:rgb(89, 17, 17);
+    padding: 25px 50px 25px 50px;
+    min-height: 30vh;
+    background-color:rgb(255, 255, 255);
+    color: rgb(58, 58, 58);
     font-family: Helvetica, Arial, sans-serif;
-    font-size: 10px;;
-    color: white;
+    font-size: 10px;
+    z-index: 10;
+    box-shadow: 0px 2px 25px 1px rgb(85, 85, 85);
 }
 
 .footer {
-    padding: 30px;
-    background-color: rgb(29, 0, 0);
-    min-height: 35%;
-
-    color: white;
+    padding: 30px 50px 30px 50px;
+    background-color: rgb(245, 245, 245);
+    min-height: 40vh;
+    color: rgb(74, 74, 74);
 }
 
 .sign-up-form {
     display: flex;
     flex-direction: column;
+    padding-bottom: 10px; 
 }
-
 
 .form-group {
     display: flex;
@@ -81,6 +82,39 @@ p {
 .row {
     display: flex;
     flex-direction: row;
+}
 
-    padding: 10px;
+.form > p {
+    padding-top: 0px;
+    padding-bottom: 30px;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.sign-up-form .row:nth-child(2) {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+input {
+    width: 14rem;
+}
+
+.button {
+    height: 40px;
+    width: 12rem;
+    padding: 12px 20px 12px 20px;
+    background-color: rgb(78, 98, 66);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.footer > p {
+    padding-top: 1.5rem;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
 }
