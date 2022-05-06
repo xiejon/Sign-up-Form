@@ -163,7 +163,7 @@ input:focus {
     height: 40px;
     width: 12rem;
     padding: 12px 20px 12px 20px;
-    background-color: rgb(78, 98, 66);
+    background-color: rgb(84, 36, 8);
     border: none;
     border-radius: 10px;
     color: white;
@@ -181,7 +181,7 @@ input:focus {
 }
 
 .footer > .text > :nth-child(2) {
-    color:rgb(78, 98, 66);
+    color:rgb(84, 36, 8);
     font-weight: 700;
     font-size: 13px;
 }
