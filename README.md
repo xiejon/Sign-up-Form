@@ -2,6 +2,8 @@
 
 A demo (front-end only) web-page using HTML/CSS. This project was an attempt to familiarize myself with positioning and styling a basic form. 
 
+Viewable at https://xiejon.github.io/Sign-up-Form/
+
 ## Key Takeaways
 
 - Positioning items on a webpage so that they remain stable upon window resizing. 
